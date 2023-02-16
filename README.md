@@ -8,7 +8,6 @@ Teste pratico - RESTful API para registro de venda de lanches
 - PostgreSQL
 - Spring Security
 - Swagger OpenAPI
-- Docker
 - Postman para requisições HTTP(recomendado)
 
 ## 2. Requisitos para o building e o running da aplicação:
