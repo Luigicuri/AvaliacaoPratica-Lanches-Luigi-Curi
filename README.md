@@ -131,7 +131,7 @@ Corpo do envio:
 ``` 
 
 Após enviar a requisição. Será gerado um Id referente ao Lanche.
-Será gerado tamém o valor total a pagar, o mesmo é calculado com base no valor padrão do lanche + quantidade de ingredientes adicionais com seus respectivos valores.
+Será gerado também o valor total a pagar, o mesmo é calculado com base no valor padrão do lanche + quantidade de ingredientes adicionais com seus respectivos valores.
 
 Resposta:
 ```
