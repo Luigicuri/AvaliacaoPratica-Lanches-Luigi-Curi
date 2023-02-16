@@ -1,5 +1,5 @@
 # Avaliacao-Projeto-Lanches-API
-Teste pratico - RESTful API para registro de venda de lanches
+Teste prático - RESTful API para registro de venda de lanches
 
 ## 1. Tecnologias utilizadas:
 - Spring Boot
