@@ -13,7 +13,7 @@ Teste prático - RESTful API para registro de venda de lanches
 
 ## 2. Requisitos para o building e o running da aplicação:
 - PostgreSQL para uso do banco de dados
-- JDK 18
+- JDK
 - IntelliJ, Eclipse ou outra IDE
 - Apache Maven
 
