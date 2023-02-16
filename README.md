@@ -116,7 +116,7 @@ Clique na aba "Authorization", selecione o tipo "Basic auth" e então, insira no
 
 ## 5. Testando API. Exemplo: cadastrando pedido de Lanche
 
-Após configurarmos tudo acima, realizaremos uma requisição POST para cadastrar um lanche. É possível solicitar ingredientes adicionais para personalizar o lanche caso o cliente desejar, acrescentando com o valor padrão do lanche.
+Após configurarmos tudo acima, realizaremos como um exemplo a requisição POST para cadastrar um lanche. É possível solicitar ingredientes adicionais para personalizar o lanche caso o cliente desejar, acrescentando com o valor padrão do lanche.
 
 Corpo do envio:
 
