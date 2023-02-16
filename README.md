@@ -114,7 +114,7 @@ Clique na aba "Authorization", selecione o tipo "Basic auth" e então, insira no
 
 ![image](https://user-images.githubusercontent.com/74516086/219418439-d007f019-d4b2-47d9-b13f-187ea533ee1e.png)
 
-## 5. Testando API. Exemplo: fazendo pedido de Lanche
+## 5. Testando API. Exemplo: cadastrando pedido de Lanche
 
 Após configurarmos tudo acima, realizaremos uma requisição POST para cadastrar um lanche. É possível solicitar ingredientes adicionais para personalizar o lanche caso o cliente desejar, acrescentando com o valor padrão do lanche.
 
