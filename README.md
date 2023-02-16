@@ -31,8 +31,6 @@ Crie uma nova database com o nome que desejar:
 
 Neste exemplo será criada a database com o nome "lanches":
 
-![image](https://user-images.githubusercontent.com/74516086/219408990-b5293574-f772-42eb-a944-a04302aafd7b.png)
-
 ### Passo 2
 Abra o arquivo de configuração do projeto spring /src/main/resources/application.properties , copie e cole estes campos de configuração abaixo. Caso a porta utilizada e o nome da database sejam diferentes, altere para os nomes e portas utilizadas no seu PostgreSQL.
 
