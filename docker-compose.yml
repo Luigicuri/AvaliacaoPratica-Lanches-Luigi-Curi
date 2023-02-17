@@ -1,0 +1,29 @@
+version: '3.7'
+services:
+  backend:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: lanchescontainer
+    environment:
+      - spring.datasource.url=jdbc:postgresql://db:5432/lanches
+      - spring.datasource.username=postgres
+      - spring.datasource.password=root
+
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+  db:
+    image: "postgres:15"
+    container_name: lanchescontainerdb
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=lanches
+    ports:
+      - "5432:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+volumes:
+  db-data:
