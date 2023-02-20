@@ -3,6 +3,7 @@ Teste prático - RESTful API para registro de venda de lanches
 
 ## 1. Tecnologias utilizadas:
 - Java 8
+- Maven
 - Spring Boot
 - Spring Web
 - Spring Data JPA
@@ -15,7 +16,6 @@ Teste prático - RESTful API para registro de venda de lanches
 - PostgreSQL para uso do banco de dados
 - JDK
 - IntelliJ, Eclipse ou outra IDE
-- Apache Maven
 
 Para Autenticação login Spring Security
 > Usuário: admin
