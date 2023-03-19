@@ -28,9 +28,9 @@ public class LancheService {
     }
     public void inserirAdicional(Lanche lanche){
         if(!lanche.getAdicional().isEmpty()){
-            for(Ingrediente adicional : lanche.getAdicional()){
-                lanche.setValorTotal(lanche.getValorTotal() + adicional.getValor());
-            }
+            lanche.getAdicional()
+                    .stream()
+                    .forEach(adicional -> lanche.setValorTotal(lanche.getValorTotal() + adicional.getValor()));
         }
     }
 }
